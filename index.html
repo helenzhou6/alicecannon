@@ -27,9 +27,10 @@
         </ul>
       </nav>
     </header>
+  </div>
 
-    <main>
-
+  <main>
+    <div class="margin-wrapper">
       <section class="main__about">
 
         <div class="clearfix">
@@ -118,25 +119,29 @@
         </div>
       </section>
 
-      <section class="main__contact">
+    </div>
+      <section class="main__contact margin-wrapper clearfix">
         <h2 class="contact__title">Let's get talking!</h2>
         <form id="contact">
-          <span class="contact__tag">Name</span>
-          <input class="box-styling" type="text" name="name">
-          <span class="contact__tag">Email address</span>
-          <input class="box-styling" type="text" name="email">
+          <div class="contact__input">
+            <span class="contact__tag">Name</span>
+            <input class="box-styling" type="text" name="name">
+          </div>
+          <div class="contact__input">
+            <span class="contact__tag">Email address</span>
+            <input class="box-styling" type="text" name="email">
+          </div>
         </form>
-        <span class="contact__tag">Message</span>
-        <textarea class="box-styling" name="message" form="contact"></textarea>
-        <input class="submit" type="submit" value="Submit" form="contact">
+          <div class="contact__input">
+            <span class="contact__tag">Message</span>
+            <textarea class="box-styling contact__message" name="message" form="contact"></textarea>
+            <input class="submit" type="submit" value="Send" form="contact">
+          </div>
       </section>
-    </main>
-  </div>
+  </main>
   
   <footer class="site-footer">
-    <!-- <div class="margin-wrapper">  -->
       <span>Made by Helen Zhou 2017</span>
-    <!-- </div> -->
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
