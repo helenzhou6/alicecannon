@@ -15,6 +15,12 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
+	"\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/favicon.ico",
+		"oF": 0
+		},
 	"\/img\/concept.jpg": {
 		"ft": 16384,
 		"iS": 1785610,
@@ -30,6 +36,16 @@
 		"iS": 699163,
 		"oA": 0,
 		"oAP": "\/img\/construction.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/contact.jpg": {
+		"ft": 16384,
+		"iS": 598867,
+		"oA": 0,
+		"oAP": "\/img\/contact.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -111,11 +127,1307 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
-	"\/node_modules": {
-		"ft": 65536,
+	"\/main-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/main-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/main-min.js.map": {
+		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/build\/node_modules",
+		"oAP": "\/main-min.js.map",
 		"oF": 0
+		},
+	"\/main.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/main-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/node_modules\/.yarn-integrity": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/node_modules\/.yarn-integrity",
+		"oF": 0
+		},
+	"\/node_modules\/lazysizes\/CHANGELOG.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/CHANGELOG.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/node_modules\/lazysizes\/lazysizes-umd.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/lazysizes-umd.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/lazysizes-umd.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/lazysizes-umd.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/lazysizes.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/lazysizes.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/lazysizes.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/lazysizes.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/LICENSE",
+		"oF": 0
+		},
+	"\/node_modules\/lazysizes\/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/node_modules\/lazysizes\/plugins\/artdirect\/ls.artdirect.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/artdirect\/ls.artdirect.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/artdirect\/ls.artdirect.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/artdirect\/ls.artdirect.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/aspectratio\/ls.aspectratio.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/aspectratio\/ls.aspectratio.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/aspectratio\/ls.aspectratio.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/aspectratio\/ls.aspectratio.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/aspectratio\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/aspectratio\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/attrchange\/ls.attrchange.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/attrchange\/ls.attrchange.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/attrchange\/ls.attrchange.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/attrchange\/ls.attrchange.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/attrchange\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/attrchange\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/bgset\/ls.bgset.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/bgset\/ls.bgset.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/bgset\/ls.bgset.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/bgset\/ls.bgset.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/bgset\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/bgset\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/custommedia\/ls.custommedia.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/custommedia\/ls.custommedia.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/custommedia\/ls.custommedia.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/custommedia\/ls.custommedia.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/custommedia\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/custommedia\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/fix-ios-sizes\/fix-ios-sizes.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/fix-ios-sizes\/fix-ios-sizes.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/fix-ios-sizes\/fix-ios-sizes.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/fix-ios-sizes\/fix-ios-sizes.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/include\/ls.include.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/include\/ls.include.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/include\/ls.include.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/include\/ls.include.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/include\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/include\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/noscript\/ls.noscript.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/noscript\/ls.noscript.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/noscript\/ls.noscript.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/noscript\/ls.noscript.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/noscript\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/noscript\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/object-fit\/ls.object-fit.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/object-fit\/ls.object-fit.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/object-fit\/ls.object-fit.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/object-fit\/ls.object-fit.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/object-fit\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/object-fit\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/optimumx\/ls.optimumx.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/optimumx\/ls.optimumx.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/optimumx\/ls.optimumx.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/optimumx\/ls.optimumx.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/optimumx\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/optimumx\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/parent-fit\/ls.parent-fit.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/parent-fit\/ls.parent-fit.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/parent-fit\/ls.parent-fit.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/parent-fit\/ls.parent-fit.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/parent-fit\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/parent-fit\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/print\/ls.print.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/print\/ls.print.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/print\/ls.print.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/print\/ls.print.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/print\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/print\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/progressive\/ls.progressive.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/progressive\/ls.progressive.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/progressive\/ls.progressive.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/progressive\/ls.progressive.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/progressive\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/progressive\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/respimg\/ls.respimg.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/respimg\/ls.respimg.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/respimg\/ls.respimg.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/respimg\/ls.respimg.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/respimg\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/respimg\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/rias\/ls.rias.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/rias\/ls.rias.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/rias\/ls.rias.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/rias\/ls.rias.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/rias\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/rias\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/static-gecko-picture\/ls.static-gecko-picture.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/static-gecko-picture\/ls.static-gecko-picture.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/static-gecko-picture\/ls.static-gecko-picture.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/static-gecko-picture\/ls.static-gecko-picture.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/twitter\/ls.twitter.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/twitter\/ls.twitter.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/twitter\/ls.twitter.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/twitter\/ls.twitter.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/unload\/ls.unload.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/unload\/ls.unload.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/unload\/ls.unload.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/unload\/ls.unload.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/unload\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/unload\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/unveilhooks\/ls.unveilhooks.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/unveilhooks\/ls.unveilhooks.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/unveilhooks\/ls.unveilhooks.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/unveilhooks\/ls.unveilhooks.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/unveilhooks\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/unveilhooks\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/video-embed\/ls.video-embed.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/video-embed\/ls.video-embed.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/video-embed\/ls.video-embed.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/video-embed\/ls.video-embed.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/plugins\/video-embed\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/plugins\/video-embed\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/node_modules\/lazysizes\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/node_modules\/lazysizes\/src\/common.wrapper": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/src\/common.wrapper",
+		"oF": 0
+		},
+	"\/node_modules\/lazysizes\/src\/lazysizes-core.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/src\/lazysizes-core.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/src\/lazysizes-intersection.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/src\/lazysizes-intersection.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/lazysizes\/src\/umd.wrapper": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/node_modules\/lazysizes\/src\/umd.wrapper",
+		"oF": 0
+		},
+	"\/node_modules\/waypoints\/.eslintrc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/.eslintrc",
+		"oF": 0
+		},
+	"\/node_modules\/waypoints\/.npmignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/.npmignore",
+		"oF": 0
+		},
+	"\/node_modules\/waypoints\/.travis.yml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/.travis.yml",
+		"oF": 0
+		},
+	"\/node_modules\/waypoints\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/node_modules\/waypoints\/CHANGELOG.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/CHANGELOG.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/node_modules\/waypoints\/CONTRIBUTING.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/CONTRIBUTING.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/node_modules\/waypoints\/gulpfile.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/gulpfile.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/lib\/jquery.waypoints.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/lib\/jquery.waypoints.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/lib\/jquery.waypoints.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/lib\/jquery.waypoints.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/lib\/noframework.waypoints.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/lib\/noframework.waypoints.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/lib\/noframework.waypoints.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/node_modules\/waypoints\/lib\/noframework.waypoints.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/lib\/shortcuts\/infinite.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/lib\/shortcuts\/infinite.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/lib\/shortcuts\/infinite.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/lib\/shortcuts\/infinite.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/lib\/shortcuts\/inview.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/lib\/shortcuts\/inview.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/lib\/shortcuts\/inview.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/lib\/shortcuts\/inview.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/lib\/shortcuts\/sticky.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/lib\/shortcuts\/sticky.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/lib\/shortcuts\/sticky.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/lib\/shortcuts\/sticky.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/lib\/waypoints.debug.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/lib\/waypoints.debug.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/lib\/zepto.waypoints.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/lib\/zepto.waypoints.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/lib\/zepto.waypoints.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/lib\/zepto.waypoints.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/licenses.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/licenses.txt",
+		"oF": 0
+		},
+	"\/node_modules\/waypoints\/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/node_modules\/waypoints\/README.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/node_modules\/waypoints\/src\/adapters\/jquery-zepto-fn-extension.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/src\/adapters\/jquery-zepto-fn-extension.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/src\/adapters\/jquery.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/src\/adapters\/jquery.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/src\/adapters\/noframework.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/src\/adapters\/noframework.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/src\/adapters\/zepto.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/src\/adapters\/zepto.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/src\/context.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/src\/context.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/src\/debug.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/src\/debug.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/src\/group.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/src\/group.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/src\/shortcuts\/infinite.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/src\/shortcuts\/infinite.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/src\/shortcuts\/inview.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/src\/shortcuts\/inview.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/src\/shortcuts\/sticky.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/src\/shortcuts\/sticky.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/src\/waypoint.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/src\/waypoint.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/test\/adapter-fn-spec.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/test\/adapter-fn-spec.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/test\/context-spec.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/test\/context-spec.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/test\/debug-spec.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/test\/debug-spec.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/test\/fixtures\/infinite.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/test\/fixtures\/infinite.html",
+		"oF": 0
+		},
+	"\/node_modules\/waypoints\/test\/fixtures\/standard.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/test\/fixtures\/standard.html",
+		"oF": 0
+		},
+	"\/node_modules\/waypoints\/test\/fixtures\/sticky.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/test\/fixtures\/sticky.html",
+		"oF": 0
+		},
+	"\/node_modules\/waypoints\/test\/group-spec.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/test\/group-spec.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/test\/infinite-spec.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/test\/infinite-spec.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/test\/inview-spec.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/test\/inview-spec.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/test\/lib\/coffee-script.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/test\/lib\/coffee-script.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/test\/lib\/jasmine-html.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/test\/lib\/jasmine-html.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/test\/lib\/jasmine-jquery.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/test\/lib\/jasmine-jquery.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/test\/lib\/jasmine.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/test\/lib\/jasmine.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/node_modules\/waypoints\/test\/lib\/jasmine.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/test\/lib\/jasmine.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/test\/lib\/require.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/test\/lib\/require.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/test\/lib\/testloader.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/test\/lib\/testloader.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/test\/settings.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/test\/settings.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/test\/sticky-spec.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/test\/sticky-spec.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/test\/waypoint-spec.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/test\/waypoint-spec.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/node_modules\/waypoints\/testem.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/node_modules\/waypoints\/testem.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"\/package.json": {
 		"ft": 524288,
@@ -147,6 +1459,15 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/test.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/test-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/yarn.lock": {
 		"ft": 8192,
@@ -2100,7 +3421,7 @@
 	"languageDefaultsUserDefined": [
 		],
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions",
 	"sourceFolderName": "source",
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html id="to-top">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
@@ -7,8 +7,8 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="https://use.typekit.net/vle4wxi.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
-  <!-- <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> -->
-  <!-- <link rel="icon" href="/favicon.ico" type="image/x-icon"> -->
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <title>Alice Cannon</title>
 </head>
 
@@ -21,9 +21,9 @@
       </div>
       <nav class="heading__nav">
         <ul class="clearfix">
-          <li class="nav__link">About</li>
-          <li class="nav__link">The Process</li>
-          <li class="nav__link">Contact</li>
+          <li class="nav__link" data-section="about"><a href="#to-top" class="nav__outer"><span class="nav__inner"></span>About</a></li>
+          <li class="nav__link" data-section="process"><a href="#process-section" class="nav__outer"><span class="nav__inner"></span>The Process</a></li>
+          <li class="nav__link" data-section="contact"><a href="#contact-section" class="nav__outer"><span class="nav__inner"></span>Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -31,7 +31,7 @@
 
   <main>
     <div class="margin-wrapper">
-      <section class="main__about">
+      <section class="main__about" data-section="about">
 
         <div class="clearfix">
           <div class="image__first image">
@@ -85,7 +85,7 @@
 
       </section>
 
-      <section class="main__process clearfix">
+      <section class="main__process clearfix" data-section="process" id='process-section'>
         <div class="clearfix">
           <div class="process process__discovery">
             <h3 class="process__title">Discovery Phase</h3>
@@ -115,36 +115,64 @@
             <p>At completion we make sure that we have suppressed your expectations and you are happy with your new home. We make a visit six weeks after completion to ensure you’re still happy.</p>
           </div>
 
-          <img class="image__width image__construction process__image" src="/img/construction.jpg" />
+          <img class="image__width image__construction process__image is-hidden" src="/img/construction.jpg" />
         </div>
       </section>
 
     </div>
-      <section class="main__contact margin-wrapper clearfix">
-        <h2 class="contact__title">Let's get talking!</h2>
-        <form id="contact">
-          <div class="contact__input">
-            <span class="contact__tag">Name</span>
-            <input class="box-styling" type="text" name="name">
+      <div class="margin-wrapper contact-background">
+        <section class="main__contact clearfix" data-section="contact" id='contact-section'>
+
+          <h2 class="contact__title">Let's get talking!</h2>
+
+          <div class="contact__form">
+            <form id="contact">
+              <div class="contact__input">
+                <span class="contact__tag">Name</span>
+                <input class="box-styling" type="text" name="name">
+              </div>
+              <div class="contact__input">
+                <span class="contact__tag">Email address</span>
+                <input class="box-styling" type="text" name="email">
+              </div>
+            </form>
+            <div class="contact__input">
+              <span class="contact__tag">Message</span>
+              <textarea class="box-styling contact__message" name="message" form="contact"></textarea>
+              <input class="submit" type="submit" value="Send" form="contact">
+            </div>
           </div>
-          <div class="contact__input">
-            <span class="contact__tag">Email address</span>
-            <input class="box-styling" type="text" name="email">
+
+          <div class="is-hidden contact__info">
+
+              <h4 class="info__tag">Telephone</h4>
+              <div class="info__text">
+                02049454784
+              </div>
+
+              <h4 class="info__tag">Email</h4>
+              <div class="info__text"><a href="mailto:contact@intalicecannon.com?Subject=Enquiry" target="_top">
+                contact@alicecannon.co.uk</a>
+              </div>
+
+              <h4 class="info__tag">Address</h4>
+              <div class="info__text">
+                26 Crown Street<br>London<br>WC2B 8FE<br>(by appointment only)
+              </div>
           </div>
-        </form>
-          <div class="contact__input">
-            <span class="contact__tag">Message</span>
-            <textarea class="box-styling contact__message" name="message" form="contact"></textarea>
-            <input class="submit" type="submit" value="Send" form="contact">
+
+          <div class="is-hidden contact__img">
+            <img class="image__width" src="/img/contact.jpg" />
           </div>
-      </section>
+
+        </section>
+      </div>
   </main>
   
   <footer class="site-footer">
-      <span>Made by Helen Zhou 2017</span>
+      <span>Made by <a href="https://www.helenzhou.co.uk/" target="_blank">Helen Zhou</a> 2017</span>
   </footer>
 
-  <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
-  <script src="jquery.js"></script>
+  <script src="/main-min.js"></script>
 </body>
 </html>

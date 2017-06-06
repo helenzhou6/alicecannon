@@ -5,5 +5,21 @@
   "license": "MIT",
   "dependencies": {
     "lazysizes": "^4.0.0-rc1"
-  }
+  },
+  "devDependencies": {
+    "waypoints": "^4.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helenzhou6/alicecannon.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/helenzhou6/alicecannon/issues"
+  },
+  "homepage": "https://github.com/helenzhou6/alicecannon#readme",
+  "description": ""
 }
