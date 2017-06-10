@@ -13,23 +13,25 @@
 </head>
 
 <body>
-  <div class="margin-wrapper">
-    <header class="heading clearfix">
-      <div class="heading__logo">
-        <h1 class="logo__title">Alice Cannon</h1>
-        <div class="logo__subtext">Interior Design based in London</div>
-      </div>
-      <nav class="heading__nav">
-        <ul class="clearfix">
-          <li class="nav__link" data-section="about"><a href="#to-top" class="nav__outer"><span class="nav__inner"></span>About</a></li>
-          <li class="nav__link" data-section="process"><a href="#process-section" class="nav__outer"><span class="nav__inner"></span>The Process</a></li>
-          <li class="nav__link" data-section="contact"><a href="#contact-section" class="nav__outer"><span class="nav__inner"></span>Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-  </div>
+  <div class="main-wrapper">
 
-  <main>
+    <div class="margin-wrapper">
+      <header class="heading clearfix">
+        <div class="heading__logo">
+          <h1 class="logo__title">Alice Cannon</h1>
+          
+          <div class="logo__subtext">Interior Design based in London</div>
+        </div>
+        <nav class="heading__nav">
+          <ul class="clearfix">
+            <li class="nav__link nav__link--is-current" data-section="about"><a href="#to-top"></span>About</a></li>
+            <li class="nav__link" data-section="process"><a href="#process-section">The Process</a></li>
+            <li class="nav__link" data-section="contact"><a href="#contact-section">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
     <div class="margin-wrapper">
       <section class="main__about" data-section="about">
 
@@ -120,58 +122,65 @@
       </section>
 
     </div>
-      <div class="margin-wrapper contact-background">
-        <section class="main__contact clearfix" data-section="contact" id='contact-section'>
+</div>
 
-          <h2 class="contact__title">Let's get talking!</h2>
+<div class="contact-wrapper">
+  <div class="contact-background">
+    <div class="margin-wrapper">
+      <section class="main__contact clearfix" data-section="contact" id='contact-section'>
 
-          <div class="contact__form">
-            <form id="contact">
-              <div class="contact__input">
-                <span class="contact__tag">Name</span>
-                <input class="box-styling" type="text" name="name">
-              </div>
-              <div class="contact__input">
-                <span class="contact__tag">Email address</span>
-                <input class="box-styling" type="text" name="email">
-              </div>
-            </form>
+        <h2 class="contact__title">Let's get talking!</h2>
+
+        <div class="contact__form">
+          <form id="contact">
             <div class="contact__input">
-              <span class="contact__tag">Message</span>
-              <textarea class="box-styling contact__message" name="message" form="contact"></textarea>
-              <input class="submit" type="submit" value="Send" form="contact">
+              <span class="contact__tag">Name</span>
+              <input class="box-styling" type="text" name="name">
             </div>
+            <div class="contact__input">
+              <span class="contact__tag">Email address</span>
+              <input class="box-styling" type="text" name="email">
+            </div>
+          </form>
+          <div class="contact__input">
+            <span class="contact__tag">Message</span>
+            <textarea class="box-styling contact__message" name="message" form="contact"></textarea>
+            <input class="submit" type="submit" value="Send" form="contact">
           </div>
+        </div>
 
-          <div class="is-hidden contact__info">
+        <div class="is-hidden contact__info">
 
-              <h4 class="info__tag">Telephone</h4>
-              <div class="info__text">
-                02049454784
-              </div>
+            <h4 class="info__tag">Telephone</h4>
+            <div class="info__text">
+              02049454784
+            </div>
 
-              <h4 class="info__tag">Email</h4>
-              <div class="info__text"><a href="mailto:contact@intalicecannon.com?Subject=Enquiry" target="_top">
-                contact@alicecannon.co.uk</a>
-              </div>
+            <h4 class="info__tag">Email</h4>
+            <div class="info__text"><a href="mailto:contact@intalicecannon.com?Subject=Enquiry" target="_top">
+              contact@alicecannon.co.uk</a>
+            </div>
 
-              <h4 class="info__tag">Address</h4>
-              <div class="info__text">
-                26 Crown Street<br>London<br>WC2B 8FE<br>(by appointment only)
-              </div>
-          </div>
+            <h4 class="info__tag">Address</h4>
+            <div class="info__text">
+              26 Crown Street<br>London<br>WC2B 8FE<br>(by appointment only)
+            </div>
+        </div>
 
-          <div class="is-hidden contact__img">
-            <img class="image__width" src="/img/contact.jpg" />
-          </div>
+        <div class="is-hidden contact__img">
+          <img class="image__width" src="/img/contact.jpg" />
+        </div>
 
-        </section>
-      </div>
-  </main>
+      </section>
+    </div>
+
+    <footer class="site-footer">
+        <span>Made by <a href="https://www.helenzhou.co.uk/" target="_blank">Helen Zhou</a> 2017</span>
+    </footer>
+
+  </div>
+</div>
   
-  <footer class="site-footer">
-      <span>Made by <a href="https://www.helenzhou.co.uk/" target="_blank">Helen Zhou</a> 2017</span>
-  </footer>
 
   <script src="/main-min.js"></script>
 </body>
