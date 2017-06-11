@@ -42,7 +42,7 @@ a {
       margin: 0 auto; } }
 
 .heading {
-  margin-top: 3.5em; }
+  margin-top: 5em; }
   @media (min-width: 500px) {
     .heading {
       margin-top: calc(3.5em + 2vw); } }
@@ -78,7 +78,7 @@ a {
   text-transform: uppercase;
   letter-spacing: 0.16em;
   font-weight: 400;
-  margin-top: 0.1em; }
+  margin-top: 0.1rem; }
 
 ul {
   list-style: none;
@@ -86,7 +86,13 @@ ul {
 
 .heading__nav {
   margin: 3.5em auto 0 auto;
-  width: 18em; }
+  width: 20em;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  z-index: 10; }
   @media (min-width: 1100px) {
     .heading__nav {
       position: relative;
@@ -95,16 +101,9 @@ ul {
       margin: 0;
       padding-right: 5em; } }
 
-.heading--active {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  margin: 0 auto;
-  z-index: 10; }
-  @media (min-width: 1100px) {
-    .heading--active {
-      position: relative; } }
+.smaller {
+  font-size: 0.5em;
+  background-color: red; }
 
 .nav__link {
   display: block;
