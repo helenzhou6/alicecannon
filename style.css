@@ -85,12 +85,8 @@ ul {
   padding: 0; }
 
 .heading__nav {
-  width: 18em;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  margin: 0 auto; }
+  margin: 3.5em auto 0 auto;
+  width: 18em; }
   @media (min-width: 1100px) {
     .heading__nav {
       position: relative;
@@ -98,6 +94,17 @@ ul {
       width: auto;
       margin: 0;
       padding-right: 5em; } }
+
+.heading--active {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  z-index: 10; }
+  @media (min-width: 1100px) {
+    .heading--active {
+      position: relative; } }
 
 .nav__link {
   display: block;
@@ -130,10 +137,14 @@ ul {
   right: 25%;
   background-color: #5b5451; }
 
-@media (min-width: 1100px) {
-  .main__about {
-    margin-top: 5em;
-    text-decoration: none; } }
+.main__about {
+  opacity: 0;
+  transform: translateY(5em);
+  transition: transform 0.5s, opacity 1s; }
+  @media (min-width: 1100px) {
+    .main__about {
+      margin-top: 5em;
+      text-decoration: none; } }
 
 .text {
   margin: 3em auto 0;
@@ -264,7 +275,10 @@ em {
   margin-top: 7rem;
   max-width: 25em;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  opacity: 0;
+  transform: translateY(5em);
+  transition: transform 0.5s, opacity 1s; }
   .main__process p {
     font-size: 1em;
     margin: 0.5em;
@@ -299,6 +313,10 @@ em {
   @media (min-width: 1100px) {
     .process {
       margin-top: 3em; } }
+  .process p::first-letter {
+    padding-left: 1em; }
+  .process p:first-of-type:first-letter {
+    padding-left: 0; }
 
 @media (min-width: 1100px) {
   .process__discovery {
@@ -353,7 +371,10 @@ em {
 
 .contact-background {
   margin: calc(6em + 0.4vw) auto 0;
-  background-color: #252221; }
+  background-color: #252221;
+  opacity: 0;
+  transform: translateY(10em);
+  transition: transform 0.5s, opacity 0.2s; }
   @media (min-width: 1100px) {
     .contact-background {
       margin-top: 7em;
@@ -363,7 +384,9 @@ em {
       bottom: 0;
       left: 0;
       right: 0;
-      height: 41rem; } }
+      height: 41rem;
+      opacity: 1;
+      transform: translateY(0); } }
 
 @media (min-width: 1100px) {
   .main-wrapper {
@@ -511,3 +534,7 @@ em {
   @media (min-width: 1100px) {
     .is-hidden {
       display: block; } }
+
+.main--active {
+  opacity: 1;
+  transform: translateY(0); }

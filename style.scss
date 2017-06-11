@@ -1,10 +1,10 @@
 // TO DO
 // Link up the contact form
-// Fade in and up each section
-// sticky the contact form like https://www.drummonds-uk.com/
 // responsive image handling -- different sizes of images
 // add lazy loading
-// bug - no waypoint stuff on small mobile & contact should also be when bottom of page is hit
+// bug - no waypoint stuff on small mobile?
+// bug - refresh mid page does not update heading nav
+// bug - glitchy when on mobile mid page you select about (fixed header problems)
 
 @mixin media($width) {
   @media (min-width: $width) {
@@ -126,14 +126,8 @@ a {
  }
 
 .heading__nav {
-	// margin: 3.5em auto 0 auto;
+	margin: 3.5em auto 0 auto;
 	width: 18em;
-
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    margin: 0 auto;
 
  	@include media(1100px) {
  		position: relative;
@@ -147,6 +141,18 @@ a {
  		// top: 1em;
  		// max-width: 75em; -- on wrapper screws alignment
  	}
+}
+
+.heading--active {
+	position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    z-index: 10;
+    @include media(1100px) {
+		position: relative;
+    }
 }
 
 .nav__link {
@@ -175,6 +181,7 @@ a {
  	}
 
  	@include media(1100px){
+ 		
  		width: auto;
  		padding-left: 4em;
  		padding-right: 4em;
@@ -187,6 +194,7 @@ a {
  	// a {
  	// 	color: $dark;
  	// }
+
 }
 
 .nav__link--is-current {
@@ -216,6 +224,9 @@ a {
 		margin-top: 5em;
 		text-decoration: none;
 	}
+	opacity: 0;
+	transform: translateY(5em);
+	transition: transform 0.5s, opacity 1s;
 }
 
 // TEXT
@@ -384,7 +395,7 @@ em {
 	}
 }
 
-.main__process{
+.main__process {
 	margin-top: 7rem;
 	p {
 		font-size: 1em;
@@ -394,10 +405,15 @@ em {
 	max-width: 25em;
 	margin-left: auto;
 	margin-right: auto;
+	
 
 	@include media(1100px){
 		max-width: 100%;
 	}
+
+	opacity: 0;
+	transform: translateY(5em);
+	transition: transform 0.5s, opacity 1s;
 }
 
 .process__image {
@@ -430,6 +446,13 @@ em {
 
 	@include media(1100px) {
 		margin-top: 3em;
+	}
+	p::first-letter {
+		padding-left: 1em;
+	}
+
+	p:first-of-type:first-letter {
+		padding-left:0;
 	}
 }
 
@@ -505,6 +528,10 @@ em {
 	margin: calc(6em + 0.4vw) auto 0;
 	background-color: darken($dark, 10%);
 
+	opacity: 0;
+	transform: translateY(10em);
+	transition: transform 0.5s, opacity 0.2s;
+
 	@include media(1100px) {
 		margin-top: 7em;
 		position: fixed;
@@ -514,6 +541,9 @@ em {
 	    left: 0;
 	    right: 0;
 	    height: 41rem;
+
+		opacity: 1;
+		transform: translateY(0);
 	}
 }
 
@@ -545,7 +575,6 @@ em {
 		max-width: none;
 	}
 
-
 }
 
 .contact-wrapper {
@@ -556,7 +585,6 @@ em {
 
 .contact__input {
 	position: relative;
-	
 	margin: 0 auto 0.3em;
 
 	@include media(1100px){
@@ -807,3 +835,16 @@ em {
 		display: block;
 	}
 }
+
+.main--active {
+	// background: blue;
+	opacity: 1;
+	transform: translateY(0);
+	// transition: transform 0.5s, opacity 1s;
+}
+
+// section {
+// 	background: red;
+// 	opacity: 1 !important;
+// 	transform: none !important;
+// }
