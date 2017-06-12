@@ -151,12 +151,6 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"\/node_modules\/.yarn-integrity": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/node_modules\/.yarn-integrity",
-		"oF": 0
-		},
 	"\/node_modules\/lazysizes\/CHANGELOG.md": {
 		"cS": 0,
 		"eF": 1,
@@ -205,7 +199,7 @@
 	"\/node_modules\/lazysizes\/lazysizes.min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/node_modules\/lazysizes\/lazysizes.min.js",
 		"oF": 0,
 		"sC": 1,
