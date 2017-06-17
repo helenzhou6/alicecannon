@@ -43,19 +43,19 @@ a {
 
 .heading {
   margin-top: 7em;
-  transition: all 0.4s; }
+  transition: background 0.4s; }
   @media (min-width: 500px) {
     .heading {
       margin-top: calc(6em + 2vw); } }
   @media (min-width: 1100px) {
     .heading {
-      margin-top: 0;
+      margin-top: 1rem;
       top: 0;
       left: 0;
       right: 0;
       padding-left: 5em;
       width: 100%;
-      position: fixed;
+      position: absolute;
       max-width: 75em;
       margin-left: auto;
       margin-right: auto;
@@ -64,6 +64,10 @@ a {
       padding-bottom: 0.5em;
       display: flex;
       align-items: center; } }
+
+.heading--fixed {
+  position: fixed;
+  margin-top: 0; }
 
 .heading__logo {
   transition: all 0.2s;

@@ -57,7 +57,16 @@ document.addEventListener('DOMContentLoaded', function() {
 		}
 	  },
 	  offset: -25
-	})
+	});
+
+	const heading = document.querySelector('.heading');
+
+  new Waypoint({
+    element: heading,
+    handler: function(direction) {
+      heading.classList[direction == 'down' ? 'add' : 'remove']('heading--fixed');
+    },
+  });
 
 
 	var sections = {
