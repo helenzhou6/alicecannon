@@ -96,8 +96,10 @@ a {
  }
 
  .heading--fixed {
-	 position: fixed;
-	 margin-top: 0;
+ 	@include media(1100px) {
+		 position: fixed;
+		 margin-top: 0;
+	}
  }
 
  .heading__logo {
