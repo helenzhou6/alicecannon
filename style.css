@@ -29,7 +29,8 @@ a {
 
 .margin-wrapper {
   padding-left: 2em;
-  padding-right: 2em; }
+  padding-right: 2em;
+  width: 100%; }
   @media (min-width: 500px) {
     .margin-wrapper {
       padding-left: calc(2.2em + 8vw);
@@ -53,12 +54,8 @@ a {
       top: 0;
       left: 0;
       right: 0;
-      padding-left: 5em;
       width: 100%;
       position: fixed;
-      max-width: 75em;
-      margin-left: auto;
-      margin-right: auto;
       z-index: 2;
       padding-top: 0.5em;
       padding-bottom: 0.5em;
@@ -119,7 +116,7 @@ ul {
       float: right;
       width: auto;
       margin: 0;
-      padding-right: 5em; } }
+      padding-right: 0; } }
 
 .smaller {
   font-size: 0.5em;
@@ -444,13 +441,8 @@ em {
       max-width: none; } }
 
 .contact__response {
-  color: white; }
-
-.contact__response--error {
-  background: red; }
-
-.contact__response--success {
-  background: green; }
+  color: white;
+  margin-left: 0.5em; }
 
 .contact__input {
   position: relative;
