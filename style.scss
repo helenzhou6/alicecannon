@@ -103,6 +103,10 @@ a {
  	@include media(1100px) {
  		float: left;
  		margin-right: auto;
+ 		font-size: 0.7em;
+ 		transform: scale(1.5);
+    	transform-origin: left;
+    	position: relative;
  		// width: 40%;
  		// margin-right: 10%;
  	}
@@ -123,6 +127,10 @@ a {
 
  	margin-top: 0.1rem;
 
+    position: absolute;
+    right: 0;
+    left: 0;
+    transition: 0.2s all;
  }
 
  ul {
@@ -247,8 +255,11 @@ a {
 		z-index: 200;
 		background-color: white;
 		.heading__logo {
-			// transform: scale(0.8);
-			// transform-origin: left;
+			transform: scale(1);
+		}
+
+		.logo__subtext {
+			opacity: 0;
 		}
 	}
 }

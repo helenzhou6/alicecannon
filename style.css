@@ -71,7 +71,11 @@ a {
   @media (min-width: 1100px) {
     .heading__logo {
       float: left;
-      margin-right: auto; } }
+      margin-right: auto;
+      font-size: 0.7em;
+      transform: scale(1.5);
+      transform-origin: left;
+      position: relative; } }
 
 .logo__title {
   margin: 0;
@@ -83,7 +87,11 @@ a {
   text-transform: uppercase;
   letter-spacing: 0.16em;
   font-weight: 400;
-  margin-top: 0.1rem; }
+  margin-top: 0.1rem;
+  position: absolute;
+  right: 0;
+  left: 0;
+  transition: 0.2s all; }
 
 ul {
   list-style: none;
@@ -150,7 +158,11 @@ ul {
 @media (min-width: 1100px) {
   .heading--active {
     z-index: 200;
-    background-color: white; } }
+    background-color: white; }
+    .heading--active .heading__logo {
+      transform: scale(1); }
+    .heading--active .logo__subtext {
+      opacity: 0; } }
 
 .text {
   margin: 3em auto 0;
