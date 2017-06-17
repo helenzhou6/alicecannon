@@ -15,8 +15,9 @@
 <body>
   <div class="main-wrapper">
 
-    <div class="margin-wrapper">
       <header class="heading clearfix">
+        <div class="margin-wrapper">
+
         <div class="heading__logo"><a href="#to-top">
           <h1 class="logo__title">Alice Cannon</h1>
           
@@ -29,8 +30,9 @@
             <li class="nav__link" data-section="contact"><a href="#contact-section">Contact</a></li>
           </ul>
         </nav>
-      </header>
-    </div>
+      </div>
+    </header>
+    
 
     <div class="margin-wrapper">
       <section class="main__about" data-section="about">
