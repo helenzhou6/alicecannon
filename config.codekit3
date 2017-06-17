@@ -21,24 +21,6 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/.idea\/alicecannon.iml": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.idea\/alicecannon.iml",
-		"oF": 0
-		},
-	"\/.idea\/modules.xml": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.idea\/modules.xml",
-		"oF": 0
-		},
-	"\/.idea\/workspace.xml": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.idea\/workspace.xml",
-		"oF": 0
-		},
 	"\/composer.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -51,6 +33,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/composer.lock",
+		"oF": 0
+		},
+	"\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/favicon.ico",
 		"oF": 0
 		},
 	"\/form.php": {
@@ -1548,12 +1536,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/tags": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/tags",
-		"oF": 0
-		},
 	"\/vendor\/autoload.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -1590,12 +1572,6 @@
 		"oAP": "\/vendor\/composer\/autoload_real.php",
 		"oF": 0
 		},
-	"\/vendor\/composer\/autoload_static.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/vendor\/composer\/autoload_static.php",
-		"oF": 0
-		},
 	"\/vendor\/composer\/ClassLoader.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -1620,6 +1596,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/vendor\/guzzlehttp\/guzzle\/.travis.yml",
+		"oF": 0
+		},
+	"\/vendor\/guzzlehttp\/guzzle\/CHANGELOG.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/guzzlehttp\/guzzle\/CHANGELOG.html",
 		"oF": 0
 		},
 	"\/vendor\/guzzlehttp\/guzzle\/CHANGELOG.md": {
@@ -1652,6 +1634,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/vendor\/guzzlehttp\/guzzle\/LICENSE",
+		"oF": 0
+		},
+	"\/vendor\/guzzlehttp\/guzzle\/README.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/guzzlehttp\/guzzle\/README.html",
 		"oF": 0
 		},
 	"\/vendor\/guzzlehttp\/guzzle\/README.md": {
@@ -1886,6 +1874,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/vendor\/guzzlehttp\/guzzle\/src\/UriTemplate.php",
+		"oF": 0
+		},
+	"\/vendor\/guzzlehttp\/guzzle\/UPGRADING.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/vendor\/guzzlehttp\/guzzle\/UPGRADING.html",
 		"oF": 0
 		},
 	"\/vendor\/guzzlehttp\/guzzle\/UPGRADING.md": {
@@ -3386,7 +3380,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 517155160,
-	"displayValue": "alicecannon",
+	"displayValue": "Alice Cannon",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-lotr"
 	},
