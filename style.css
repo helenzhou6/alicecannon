@@ -241,7 +241,7 @@ em {
   position: relative;
   height: 0;
   background: #c0bab8; }
-  .image-wrapper > img {
+  .image-wrapper img {
     position: absolute;
     top: 0;
     left: 0;

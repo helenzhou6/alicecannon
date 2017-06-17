@@ -42,6 +42,7 @@
             <div class="image-wrapper" style="padding-bottom: calc(1688 / 3000 * 100%);">
               <img
 				  class="lazyload"
+                  src="/img/transparent.png"
                   data-sizes="auto"
                   data-srcset="/img/firstimg-160x90.jpg 160w,
 							   /img/firstimg-320x180.jpg 320w,
@@ -49,6 +50,9 @@
 							   /img/firstimg-960x540.jpg 960w,
 							   /img/firstimg-1480x833.jpg 1480w"
               />
+                <noscript>
+                    <img src="/img/firstimg-960x540.jpg" />
+                </noscript>
             </div>
           </div>
           <div class="text__first text">
@@ -59,7 +63,19 @@
         <div class="clearfix">
           <div class="image__second image">
             <div class="image-wrapper" style="padding-bottom: calc(1688 / 3000 * 100%);">
-              <img class="lazyload" data-src="/img/secondimg.jpg" />
+              <img
+				  class="lazyload"
+                  src="/img/transparent.png"
+                  data-sizes="auto"
+                  data-srcset="/img/secondimg-130x73.jpg 130w,
+							   /img/secondimg-260x146.jpg 260w,
+							   /img/secondimg-520x293.jpg 520w,
+						       /img/secondimg-1040x585.jpg 1040w,
+							   /img/secondimg-1300x731.jpg 1300w"
+              />
+                <noscript>
+                    <img src="/img/secondimg-1040x585.jpg" />
+                </noscript>
             </div>
           </div>
           <div class="text__second text">
@@ -70,7 +86,19 @@
         <div class="clearfix">
           <div class="image__third image">
             <div class="image-wrapper" style="padding-bottom: calc(2002 / 3000 * 100%);">
-              <img class="lazyload" data-src="/img/thirdimg.jpg" />
+              <img
+                  class="lazyload"
+                  src="/img/transparent.png"
+                  data-sizes="auto"
+                  data-srcset="/img/thirdimg-140x93.jpg 140w,
+                           /img/thirdimg-280x187.jpg 280w,
+                           /img/thirdimg-560x374.jpg 560w,
+                           /img/thirdimg-1120x747.jpg 1120w,
+                           /img/thirdimg-1230x821.jpg 1230w"
+              />
+                <noscript>
+                    <img src="/img/thirdimg-1120x747.jpg" />
+                </noscript>
             </div>
           </div>
 
@@ -80,7 +108,19 @@
 
           <div class="image__fourth image">
             <div class="image-wrapper" style="padding-bottom: calc(3000 / 1638 * 100%);">
-              <img class="lazyload" data-src="/img/fourthimg.jpg" />
+              <img
+                  class="lazyload"
+                  src="/img/transparent.png"
+                  data-sizes="auto"
+                  data-srcset="/img/fourthimg-76x139.jpg 76w,
+                       /img/fourthimg-152x278.jpg 152w,
+                       /img/fourthimg-304x557.jpg 304w,
+                       /img/fourthimg-608x1114.jpg 608w,
+                       /img/fourthimg-1444x2645.jpg 1444w"
+              />
+                <noscript>
+                    <img src="/img/fourthimg-608x1114.jpg" />
+                </noscript>
             </div>
           </div>
         </div>
@@ -94,13 +134,35 @@
           <div class="clearfix image__56">
             <div class="image__fifth image">
               <div class="image-wrapper" style="padding-bottom: calc(1339 / 2000 * 100%);">
-                <img class="lazyload" data-src="/img/fifthimg.jpg" />
+                <img
+                    class="lazyload"
+                    src="/img/transparent.png"
+                    data-sizes="auto"
+                    data-srcset="/img/fifthimg-102x68.jpg 102w,
+                   /img/fifthimg-204x137.jpg 204w,
+                   /img/fifthimg-408x273.jpg 408w,
+                   /img/fifthimg-614x411.jpg 614w"
+                />
+                  <noscript>
+                      <img src="/img/fifthimg-408x273.jpg" />
+                  </noscript>
               </div>
             </div>
 
             <div class="image__sixth image">
               <div class="image-wrapper" style="padding-bottom: calc(3000 / 2000 * 100%);">
-                <img class="lazyload" data-src="/img/sixthimg.jpg" />
+                <img
+                    class="lazyload"
+                    src="/img/transparent.png"
+                    data-sizes="auto"
+                    data-srcset="/img/sixthimg-105x158.jpg 105w,
+                   /img/sixthimg-210x315.jpg 210w,
+                   /img/sixthimg-420x630.jpg 420w,
+                   /img/sixthimg-692x1038.jpg 692w"
+                />
+                  <noscript>
+                      <img src="/img/sixthimg-420x630.jpg" />
+                  </noscript>
               </div>
             </div>
           </div>
@@ -118,14 +180,24 @@
           
           <div class="image__discovery process__image">
             <div class="image-wrapper" style="padding-bottom: calc(2000 / 3000 * 100%);">
-              <img class="lazyload" data-src="/img/discovery.jpg" />
+              <img
+                  class="lazyload"
+                  src="/img/transparent.png"
+                  data-sizes="auto"
+                  data-srcset="/img/discovery-115x77.jpg 115w,
+                   /img/discovery-310x207.jpg 310w,
+                   /img/discovery-898x599.jpg 898w"
+              />
+                <noscript>
+                    <img src="/img/discovery-310x207.jpg" />
+                </noscript>
             </div>
           </div>
 
         </div>
         <div class="clearfix">
           <div class="process process__concept">
-            <h3 class="process__title">Concept Design</h3>
+            <h3 class="process__title">Concept Design</h3
             <p>Next we will develop detailed professional proposals and invite you to our studio to discuss the design direction. We’ll have various sketch and concept visualisations and mood boards for you to choose and alter. We aim to work as a team with you to realise your vision.</p>
             <p>We bring in the professionals. We work closely with the architects, trade contractors, restorers, lighting designers, bespoke furniture makers and consultants to evaluate the proposals.</p>
             <p>From lighting design to product sourcing and spatial planning, we’ll discuss all the specifications in detail. Once you have approved all aspects of the project, we will draw up a finalised written agreement and detailed cost plan.</p>
@@ -133,7 +205,17 @@
 
           <div class="image__concept process__image">
             <div class="image-wrapper" style="padding-bottom: calc(2250 / 3000 * 100%);">
-              <img class="lazyload" data-src="/img/concept.jpg" />
+              <img
+                  class="lazyload"
+                  src="/img/transparent.png"
+                  data-sizes="auto"
+                  data-srcset="/img/concept-115x86.jpg 115w,
+                   /img/concept-310x233.jpg 310w,
+                   /img/concept-898x674.jpg 898w"
+              />
+                <noscript>
+                    <img src="/img/concept-310x233.jpg" />
+                </noscript>
             </div>
           </div>
         </div>
@@ -148,7 +230,17 @@
           
           <div class="image__construction process__image is-hidden">
             <div class="image-wrapper" style="padding-bottom: calc(1979 / 3000 * 100%);">
-              <img class="lazyload" data-src="/img/construction.jpg" />
+              <img
+                  class="lazyload"
+                  src="/img/transparent.png"
+                  data-sizes="auto"
+                  data-srcset="/img/construction-285x188.jpg 285w,
+                   /img/construction-570x376.jpg 570w,
+                   /img/construction-994x656.jpg 994w"
+              />
+                <noscript>
+                    <img src="/img/construction-570x376.jpg" />
+                </noscript>
             </div>
           </div>
         </div>
@@ -205,7 +297,17 @@
 
         <div class="is-hidden contact__img">
           <div class="image-wrapper" style="padding-bottom: calc(1920 / 1502 * 100%);">
-            <img class="lazyload" data-src="/img/contact.jpg" />
+            <img
+                class="lazyload"
+                src="/img/transparent.png"
+                data-sizes="auto"
+                data-srcset="/img/contact-136x193.jpg 136w,
+               /img/contact-272x386.jpg 272w,
+               /img/contact-460x653.jpg 460w"
+            />
+              <noscript>
+                  <img src="/img/contact-272x386.jpg" />
+              </noscript>
           </div>
         </div>
       </section>
