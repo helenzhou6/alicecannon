@@ -1,0 +1,13 @@
+{
+    "name": "jfree/alicecannon",
+    "authors": [
+        {
+            "name": "Jay Freestone",
+            "email": "mail@jayfreestone.com"
+        }
+    ],
+    "require": {
+        "wildbit/postmark-php": "^2.3",
+        "vlucas/phpdotenv": "^2.4"
+    }
+}

@@ -443,6 +443,15 @@ em {
       padding-bottom: 4em;
       max-width: none; } }
 
+.contact__response {
+  color: white; }
+
+.contact__response--error {
+  background: red; }
+
+.contact__response--success {
+  background: green; }
+
 .contact__input {
   position: relative;
   margin: 0 auto 0.3em; }

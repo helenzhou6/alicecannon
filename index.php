@@ -154,25 +154,29 @@
         <h2 class="contact__title">Let's get talking!</h2>
 
         <div class="contact__form">
-          <form id="contact">
-            <div class="contact__input">
-              <span class="contact__tag">Name</span>
-              <input class="box-styling" type="text" name="name">
-            </div>
-            <div class="contact__input">
-              <span class="contact__tag">Email address</span>
-              <input class="box-styling" type="text" name="email">
-            </div>
-          </form>
-          <div class="contact__input">
-            <span class="contact__tag">Message</span>
-            <textarea class="box-styling contact__message" name="message" form="contact"></textarea>
-            <input class="submit" type="submit" value="Send" form="contact">
-          </div>
+            <div class="contact__response js-contact-response">
+			  <?php if (isset($_GET['form-sent'])) : ?>
+                  <p>Your form has been submitted successfully!</p>
+			  <?php endif; ?>
+			</div>
+              <form id="contact" action="form.php" method="post">
+                  <div class="contact__input">
+                      <span class="contact__tag">Name</span>
+                      <input class="box-styling" type="text" name="name" required>
+                  </div>
+                  <div class="contact__input">
+                      <span class="contact__tag">Email address</span>
+                      <input class="box-styling" type="email" name="email" required>
+                  </div>
+                  <div class="contact__input">
+                      <span class="contact__tag">Message</span>
+                      <textarea class="box-styling contact__message" name="message" form="contact" required></textarea>
+                      <input class="submit" type="submit" value="Send" form="contact" name="submit">
+                  </div>
+              </form>
         </div>
 
         <div class="is-hidden contact__info">
-
             <h4 class="info__tag">Telephone</h4>
             <div class="info__text">
               02049454784
@@ -194,7 +198,6 @@
             <img class="lazyload" data-src="/img/contact.jpg" />
           </div>
         </div>
-
       </section>
     </div>
 
