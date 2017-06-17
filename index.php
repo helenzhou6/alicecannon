@@ -40,7 +40,15 @@
         <div class="clearfix">
           <div class="image__first image">
             <div class="image-wrapper" style="padding-bottom: calc(1688 / 3000 * 100%);">
-              <img class="lazyload" data-src="/img/firstimg.jpg" />
+              <img
+				  class="lazyload"
+                  data-sizes="auto"
+                  data-srcset="/img/firstimg-160x90.jpg 160w,
+							   /img/firstimg-320x180.jpg 320w,
+							   /img/firstimg-640x360.jpg 640w,
+							   /img/firstimg-960x540.jpg 960w,
+							   /img/firstimg-1480x833.jpg 1480w"
+              />
             </div>
           </div>
           <div class="text__first text">
