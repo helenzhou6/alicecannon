@@ -51,7 +51,8 @@ document.addEventListener('DOMContentLoaded', function() {
 	  element: document.querySelector('.main__about'),
 	  handler: function(direction) {
 	  	if (direction === 'down') {
-			document.querySelector('.heading').classList.add('heading--active');
+	  		document.querySelector('.heading').classList.add('heading--active');
+	  		
 		} else {
 			document.querySelector('.heading').classList.remove('heading--active');
 		}
@@ -59,13 +60,13 @@ document.addEventListener('DOMContentLoaded', function() {
 	  offset: -25
 	});
 
-	const heading = document.querySelector('.heading');
-
   new Waypoint({
-    element: heading,
+    element: document.querySelector('body'),
     handler: function(direction) {
-      heading.classList[direction == 'down' ? 'add' : 'remove']('heading--fixed');
+    	console.log(direction);
+      document.querySelector('.heading').classList[direction == 'down' ? 'add' : 'remove']('heading--fixed');
     },
+    offset: -16
   });
 
 

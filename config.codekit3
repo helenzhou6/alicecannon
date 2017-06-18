@@ -595,7 +595,7 @@
 		"oA": 0,
 		"oAP": "\/main-min.js",
 		"oF": 0,
-		"sC": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"\/node_modules\/.yarn-integrity": {
