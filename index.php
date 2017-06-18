@@ -13,313 +13,311 @@
 </head>
 
 <body>
-<div class="site-wrapper">
-      <div class="main-wrapper">
+    <div class="main-wrapper">
 
-          <header class="heading clearfix">
-            <div class="margin-wrapper">
+        <header class="heading clearfix">
+          <div class="margin-wrapper">
 
-            <div class="heading__logo"><a href="#to-top">
-              <h1 class="logo__title">Alice Cannon</h1>
+          <div class="heading__logo"><a href="#to-top">
+            <h1 class="logo__title">Alice Cannon</h1>
 
-              <div class="logo__subtext">Interior Design based in London</div></a>
-            </div>
-            <nav class="heading__nav">
-              <ul class="clearfix">
-                <li class="nav__link nav__link--is-current" data-section="about"><a href="#to-top"></span>About</a></li>
-                <li class="nav__link" data-section="process"><a href="#process-section">The Process</a></li>
-                <li class="nav__link" data-section="contact"><a href="#contact-section">Contact</a></li>
-              </ul>
-            </nav>
+            <div class="logo__subtext">Interior Design based in London</div></a>
           </div>
-        </header>
-
-
-        <div class="margin-wrapper">
-          <section class="main__about" data-section="about">
-
-            <div class="clearfix parallax-inner">
-              <div class="image__first image parallax-inner">
-                <div class="image-wrapper" style="padding-bottom: calc(1688 / 3000 * 100%);">
-                  <img
-                      class="lazyload"
-                      src="/img/transparent.png"
-                      data-sizes="auto"
-                      data-srcset="/img/firstimg-160x90.jpg 160w,
-                                   /img/firstimg-320x180.jpg 320w,
-                                   /img/firstimg-640x360.jpg 640w,
-                                   /img/firstimg-960x540.jpg 960w,
-                                   /img/firstimg-1480x833.jpg 1480w"
-                  />
-                    <noscript>
-                        <img src="/img/firstimg-960x540.jpg" />
-                    </noscript>
-                </div>
-              </div>
-              <div class="text__first text">
-                <p>We can make your place <em>truly yours</em>. We are an established, <em>award winning</em> interior design and architecture company based in London.</p>
-              </div>
-            </div>
-
-            <div class="clearfix">
-              <div class="image__second image parallax-inner">
-                <div class="image-wrapper" style="padding-bottom: calc(1688 / 3000 * 100%);">
-                  <img
-                      class="lazyload"
-                      src="/img/transparent.png"
-                      data-sizes="auto"
-                      data-srcset="/img/secondimg-130x73.jpg 130w,
-                                   /img/secondimg-260x146.jpg 260w,
-                                   /img/secondimg-520x293.jpg 520w,
-                                   /img/secondimg-1040x585.jpg 1040w,
-                                   /img/secondimg-1300x731.jpg 1300w"
-                  />
-                    <noscript>
-                        <img src="/img/secondimg-1040x585.jpg" />
-                    </noscript>
-                </div>
-              </div>
-              <div class="text__second text">
-                <p>We provide a <em>complete service</em> no matter how big or small the project. So you can move into your <em>dream home</em> without any of the hassle of creating it. And we even make sure it’s all cost effective too.</p>
-              </div>
-            </div>
-
-            <div class="clearfix parallax-inner">
-              <div class="image__third image">
-                <div class="image-wrapper" style="padding-bottom: calc(2002 / 3000 * 100%);">
-                  <img
-                      class="lazyload"
-                      src="/img/transparent.png"
-                      data-sizes="auto"
-                      data-srcset="/img/thirdimg-140x93.jpg 140w,
-                               /img/thirdimg-280x187.jpg 280w,
-                               /img/thirdimg-560x374.jpg 560w,
-                               /img/thirdimg-1120x747.jpg 1120w,
-                               /img/thirdimg-1230x821.jpg 1230w"
-                  />
-                    <noscript>
-                        <img src="/img/thirdimg-1120x747.jpg" />
-                    </noscript>
-                </div>
-              </div>
-
-              <div class="text__third text">
-                <p>We believe in <em>sustainable design</em>. We only procure the highest of quality products from our wide network of <em>tried-and-tested</em> suppliers. And we hand pick the British Designer Makers that make bespoke pieces <em>suited to your tastes</em>.</p>
-              </div>
-
-              <div class="image__fourth image parallax-inner">
-                <div class="image-wrapper" style="padding-bottom: calc(3000 / 1638 * 100%);">
-                  <img
-                      class="lazyload"
-                      src="/img/transparent.png"
-                      data-sizes="auto"
-                      data-srcset="/img/fourthimg-76x139.jpg 76w,
-                           /img/fourthimg-152x278.jpg 152w,
-                           /img/fourthimg-304x557.jpg 304w,
-                           /img/fourthimg-608x1114.jpg 608w,
-                           /img/fourthimg-1444x2645.jpg 1444w"
-                  />
-                    <noscript>
-                        <img src="/img/fourthimg-608x1114.jpg" />
-                    </noscript>
-                </div>
-              </div>
-            </div>
-
-            <div class="clearfix">
-
-              <div class="text__fourth text">
-                <p>We take the time to really get to know you. Your tastes <em>matter to us</em>. We develop custom design solutions that tailor specially to your needs. Our passion is making your <em>perfect space</em> a reality. </p>
-              </div>
-
-              <div class="clearfix image__56 parallax-inner">
-                <div class="image__fifth image">
-                  <div class="image-wrapper" style="padding-bottom: calc(1339 / 2000 * 100%);">
-                    <img
-                        class="lazyload"
-                        src="/img/transparent.png"
-                        data-sizes="auto"
-                        data-srcset="/img/fifthimg-102x68.jpg 102w,
-                       /img/fifthimg-204x137.jpg 204w,
-                       /img/fifthimg-408x273.jpg 408w,
-                       /img/fifthimg-614x411.jpg 614w"
-                    />
-                      <noscript>
-                          <img src="/img/fifthimg-408x273.jpg" />
-                      </noscript>
-                  </div>
-                </div>
-
-                <div class="image__sixth image parallax-inner">
-                  <div class="image-wrapper" style="padding-bottom: calc(3000 / 2000 * 100%);">
-                    <img
-                        class="lazyload"
-                        src="/img/transparent.png"
-                        data-sizes="auto"
-                        data-srcset="/img/sixthimg-105x158.jpg 105w,
-                       /img/sixthimg-210x315.jpg 210w,
-                       /img/sixthimg-420x630.jpg 420w,
-                       /img/sixthimg-692x1038.jpg 692w"
-                    />
-                      <noscript>
-                          <img src="/img/sixthimg-420x630.jpg" />
-                      </noscript>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-          </section>
-
-          <section class="main__process clearfix" data-section="process" id='process-section'>
-            <div class="clearfix parallax-inner">
-              <div class="process process__discovery">
-                <h3 class="process__title">Discovery Phase</h3>
-                <p>Have a coffee with us. The first consultation is free and without any obligation. We’ll talk about your principal requirements and the scope of your project. We’ll learn what is important to you and your lifestyle, and get to know your tastes and style. We believe in transparency, so we’ll discuss an outline budget and a rough time scale from the onset. We’ll bring our expertise to the table and together we can explore the potential.</p>
-              </div>
-
-              <div class="image__discovery process__image parallax-inner">
-                <div class="image-wrapper" style="padding-bottom: calc(2000 / 3000 * 100%);">
-                  <img
-                      class="lazyload"
-                      src="/img/transparent.png"
-                      data-sizes="auto"
-                      data-srcset="/img/discovery-115x77.jpg 115w,
-                       /img/discovery-310x207.jpg 310w,
-                       /img/discovery-898x599.jpg 898w"
-                  />
-                    <noscript>
-                        <img src="/img/discovery-310x207.jpg" />
-                    </noscript>
-                </div>
-              </div>
-
-            </div>
-            <div class="clearfix">
-              <div class="process process__concept">
-                <h3 class="process__title">Concept Design</h3
-                <p>Next we will develop detailed professional proposals and invite you to our studio to discuss the design direction. We’ll have various sketch and concept visualisations and mood boards for you to choose and alter. We aim to work as a team with you to realise your vision.</p>
-                <p>We bring in the professionals. We work closely with the architects, trade contractors, restorers, lighting designers, bespoke furniture makers and consultants to evaluate the proposals.</p>
-                <p>From lighting design to product sourcing and spatial planning, we’ll discuss all the specifications in detail. Once you have approved all aspects of the project, we will draw up a finalised written agreement and detailed cost plan.</p>
-              </div>
-
-              <div class="image__concept process__image parallax-inner">
-                <div class="image-wrapper" style="padding-bottom: calc(2250 / 3000 * 100%);">
-                  <img
-                      class="lazyload"
-                      src="/img/transparent.png"
-                      data-sizes="auto"
-                      data-srcset="/img/concept-115x86.jpg 115w,
-                       /img/concept-310x233.jpg 310w,
-                       /img/concept-898x674.jpg 898w"
-                  />
-                    <noscript>
-                        <img src="/img/concept-310x233.jpg" />
-                    </noscript>
-                </div>
-              </div>
-            </div>
-
-            <div class="clearfix">
-              <div class="process process__construction">
-                <h3 class="process__title">Construction</h3>
-                <p>We take care of the smaller details.  We will deal with the technical and legal issues associated with property management including planning approval and building regulations.</p>
-                <p>We know how important It is to get it right. That’s why we oversee the whole project from construction to the final furnishings. Our experienced project management team conduct regular site visits to ensure everything is running seamlessly so you don’t need to worry. We’ll resolve any issues that arise in a timely manner and always keep you informed.</p>
-                <p>At completion we make sure that we have suppressed your expectations and you are happy with your new home. We make a visit six weeks after completion to ensure you’re still happy.</p>
-              </div>
-
-              <div class="image__construction process__image is-hidden parallax-inner">
-                <div class="image-wrapper" style="padding-bottom: calc(1979 / 3000 * 100%);">
-                  <img
-                      class="lazyload"
-                      src="/img/transparent.png"
-                      data-sizes="auto"
-                      data-srcset="/img/construction-285x188.jpg 285w,
-                       /img/construction-570x376.jpg 570w,
-                       /img/construction-994x656.jpg 994w"
-                  />
-                    <noscript>
-                        <img src="/img/construction-570x376.jpg" />
-                    </noscript>
-                </div>
-              </div>
-            </div>
-          </section>
-
+          <nav class="heading__nav">
+            <ul class="clearfix">
+              <li class="nav__link nav__link--is-current" data-section="about"><a href="#to-top"></span>About</a></li>
+              <li class="nav__link" data-section="process"><a href="#process-section">The Process</a></li>
+              <li class="nav__link" data-section="contact"><a href="#contact-section">Contact</a></li>
+            </ul>
+          </nav>
         </div>
-    </div>
+      </header>
 
-      <div class="contact-background" data-section="contact" id='contact-section'>
-        <div class="margin-wrapper">
-          <section class="main__contact clearfix">
 
-            <h2 class="contact__title">Let's get talking!</h2>
+      <div class="margin-wrapper">
+        <section class="main__about" data-section="about">
 
-            <div class="contact__form">
-                <div class="contact__response js-contact-response">
-                  <?php if (isset($_GET['form-sent'])) : ?>
-                      <p>Your form has been submitted successfully!</p>
-                  <?php endif; ?>
-                </div>
-                  <form id="contact" action="form.php" method="post">
-                      <div class="contact__input">
-                          <span class="contact__tag">Name</span>
-                          <input class="box-styling" type="text" name="name" required>
-                      </div>
-                      <div class="contact__input">
-                          <span class="contact__tag">Email address</span>
-                          <input class="box-styling" type="email" name="email" required>
-                      </div>
-                      <div class="contact__input">
-                          <span class="contact__tag">Message</span>
-                          <textarea class="box-styling contact__message" name="message" form="contact" required></textarea>
-                          <input class="submit" type="submit" value="Send" form="contact" name="submit">
-                      </div>
-                  </form>
-            </div>
-
-            <div class="is-hidden contact__info">
-                <h4 class="info__tag">Telephone</h4>
-                <div class="info__text">
-                  02049454784
-                </div>
-
-                <h4 class="info__tag">Email</h4>
-                <div class="info__text"><a href="mailto:contact@intalicecannon.com?Subject=Enquiry" target="_top">
-                  contact@alicecannon.co.uk</a>
-                </div>
-
-                <h4 class="info__tag">Address</h4>
-                <div class="info__text">
-                  26 Crown Street<br>London<br>WC2B 8FE<br>(by appointment only)
-                </div>
-            </div>
-
-            <div class="is-hidden contact__img parallax-inner">
-              <div class="image-wrapper" style="padding-bottom: calc(1920 / 1502 * 100%);">
+          <div class="clearfix">
+            <div class="image__first image">
+              <div class="image-wrapper" style="padding-bottom: calc(1688 / 3000 * 100%);">
                 <img
                     class="lazyload"
                     src="/img/transparent.png"
                     data-sizes="auto"
-                    data-srcset="/img/contact-136x193.jpg 136w,
-                   /img/contact-272x386.jpg 272w,
-                   /img/contact-460x653.jpg 460w"
+                    data-srcset="/img/firstimg-160x90.jpg 160w,
+                                 /img/firstimg-320x180.jpg 320w,
+                                 /img/firstimg-640x360.jpg 640w,
+                                 /img/firstimg-960x540.jpg 960w,
+                                 /img/firstimg-1480x833.jpg 1480w"
                 />
                   <noscript>
-                      <img src="/img/contact-272x386.jpg" />
+                      <img src="/img/firstimg-960x540.jpg" />
                   </noscript>
               </div>
             </div>
-          </section>
-        </div>
+            <div class="text__first text">
+              <p>We can make your place <em>truly yours</em>. We are an established, <em>award winning</em> interior design and architecture company based in London.</p>
+            </div>
+          </div>
 
-        <footer class="site-footer">
-            <span>Made by <a href="https://www.helenzhou.co.uk/" target="_blank">Helen Zhou</a> 2017</span>
-        </footer>
+          <div class="clearfix">
+            <div class="image__second image">
+              <div class="image-wrapper" style="padding-bottom: calc(1688 / 3000 * 100%);">
+                <img
+                    class="lazyload"
+                    src="/img/transparent.png"
+                    data-sizes="auto"
+                    data-srcset="/img/secondimg-130x73.jpg 130w,
+                                 /img/secondimg-260x146.jpg 260w,
+                                 /img/secondimg-520x293.jpg 520w,
+                                 /img/secondimg-1040x585.jpg 1040w,
+                                 /img/secondimg-1300x731.jpg 1300w"
+                />
+                  <noscript>
+                      <img src="/img/secondimg-1040x585.jpg" />
+                  </noscript>
+              </div>
+            </div>
+            <div class="text__second text">
+              <p>We provide a <em>complete service</em> no matter how big or small the project. So you can move into your <em>dream home</em> without any of the hassle of creating it. And we even make sure it’s all cost effective too.</p>
+            </div>
+          </div>
 
-    </div>
-</div>
+          <div class="clearfix">
+            <div class="image__third image">
+              <div class="image-wrapper" style="padding-bottom: calc(2002 / 3000 * 100%);">
+                <img
+                    class="lazyload"
+                    src="/img/transparent.png"
+                    data-sizes="auto"
+                    data-srcset="/img/thirdimg-140x93.jpg 140w,
+                             /img/thirdimg-280x187.jpg 280w,
+                             /img/thirdimg-560x374.jpg 560w,
+                             /img/thirdimg-1120x747.jpg 1120w,
+                             /img/thirdimg-1230x821.jpg 1230w"
+                />
+                  <noscript>
+                      <img src="/img/thirdimg-1120x747.jpg" />
+                  </noscript>
+              </div>
+            </div>
+
+            <div class="text__third text">
+              <p>We believe in <em>sustainable design</em>. We only procure the highest of quality products from our wide network of <em>tried-and-tested</em> suppliers. And we hand pick the British Designer Makers that make bespoke pieces <em>suited to your tastes</em>.</p>
+            </div>
+
+            <div class="image__fourth image">
+              <div class="image-wrapper" style="padding-bottom: calc(3000 / 1638 * 100%);">
+                <img
+                    class="lazyload"
+                    src="/img/transparent.png"
+                    data-sizes="auto"
+                    data-srcset="/img/fourthimg-76x139.jpg 76w,
+                         /img/fourthimg-152x278.jpg 152w,
+                         /img/fourthimg-304x557.jpg 304w,
+                         /img/fourthimg-608x1114.jpg 608w,
+                         /img/fourthimg-1444x2645.jpg 1444w"
+                />
+                  <noscript>
+                      <img src="/img/fourthimg-608x1114.jpg" />
+                  </noscript>
+              </div>
+            </div>
+          </div>
+
+          <div class="clearfix">
+
+            <div class="text__fourth text">
+              <p>We take the time to really get to know you. Your tastes <em>matter to us</em>. We develop custom design solutions that tailor specially to your needs. Our passion is making your <em>perfect space</em> a reality. </p>
+            </div>
+
+            <div class="clearfix image__56">
+              <div class="image__fifth image">
+                <div class="image-wrapper" style="padding-bottom: calc(1339 / 2000 * 100%);">
+                  <img
+                      class="lazyload"
+                      src="/img/transparent.png"
+                      data-sizes="auto"
+                      data-srcset="/img/fifthimg-102x68.jpg 102w,
+                     /img/fifthimg-204x137.jpg 204w,
+                     /img/fifthimg-408x273.jpg 408w,
+                     /img/fifthimg-614x411.jpg 614w"
+                  />
+                    <noscript>
+                        <img src="/img/fifthimg-408x273.jpg" />
+                    </noscript>
+                </div>
+              </div>
+
+              <div class="image__sixth image">
+                <div class="image-wrapper" style="padding-bottom: calc(3000 / 2000 * 100%);">
+                  <img
+                      class="lazyload"
+                      src="/img/transparent.png"
+                      data-sizes="auto"
+                      data-srcset="/img/sixthimg-105x158.jpg 105w,
+                     /img/sixthimg-210x315.jpg 210w,
+                     /img/sixthimg-420x630.jpg 420w,
+                     /img/sixthimg-692x1038.jpg 692w"
+                  />
+                    <noscript>
+                        <img src="/img/sixthimg-420x630.jpg" />
+                    </noscript>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </section>
+
+        <section class="main__process clearfix" data-section="process" id='process-section'>
+          <div class="clearfix">
+            <div class="process process__discovery">
+              <h3 class="process__title">Discovery Phase</h3>
+              <p>Have a coffee with us. The first consultation is free and without any obligation. We’ll talk about your principal requirements and the scope of your project. We’ll learn what is important to you and your lifestyle, and get to know your tastes and style. We believe in transparency, so we’ll discuss an outline budget and a rough time scale from the onset. We’ll bring our expertise to the table and together we can explore the potential.</p>
+            </div>
+
+            <div class="image__discovery process__image">
+              <div class="image-wrapper" style="padding-bottom: calc(2000 / 3000 * 100%);">
+                <img
+                    class="lazyload"
+                    src="/img/transparent.png"
+                    data-sizes="auto"
+                    data-srcset="/img/discovery-115x77.jpg 115w,
+                     /img/discovery-310x207.jpg 310w,
+                     /img/discovery-898x599.jpg 898w"
+                />
+                  <noscript>
+                      <img src="/img/discovery-310x207.jpg" />
+                  </noscript>
+              </div>
+            </div>
+
+          </div>
+          <div class="clearfix">
+            <div class="process process__concept">
+              <h3 class="process__title">Concept Design</h3
+              <p>Next we will develop detailed professional proposals and invite you to our studio to discuss the design direction. We’ll have various sketch and concept visualisations and mood boards for you to choose and alter. We aim to work as a team with you to realise your vision.</p>
+              <p>We bring in the professionals. We work closely with the architects, trade contractors, restorers, lighting designers, bespoke furniture makers and consultants to evaluate the proposals.</p>
+              <p>From lighting design to product sourcing and spatial planning, we’ll discuss all the specifications in detail. Once you have approved all aspects of the project, we will draw up a finalised written agreement and detailed cost plan.</p>
+            </div>
+
+            <div class="image__concept process__image">
+              <div class="image-wrapper" style="padding-bottom: calc(2250 / 3000 * 100%);">
+                <img
+                    class="lazyload"
+                    src="/img/transparent.png"
+                    data-sizes="auto"
+                    data-srcset="/img/concept-115x86.jpg 115w,
+                     /img/concept-310x233.jpg 310w,
+                     /img/concept-898x674.jpg 898w"
+                />
+                  <noscript>
+                      <img src="/img/concept-310x233.jpg" />
+                  </noscript>
+              </div>
+            </div>
+          </div>
+
+          <div class="clearfix">
+            <div class="process process__construction">
+              <h3 class="process__title">Construction</h3>
+              <p>We take care of the smaller details.  We will deal with the technical and legal issues associated with property management including planning approval and building regulations.</p>
+              <p>We know how important It is to get it right. That’s why we oversee the whole project from construction to the final furnishings. Our experienced project management team conduct regular site visits to ensure everything is running seamlessly so you don’t need to worry. We’ll resolve any issues that arise in a timely manner and always keep you informed.</p>
+              <p>At completion we make sure that we have suppressed your expectations and you are happy with your new home. We make a visit six weeks after completion to ensure you’re still happy.</p>
+            </div>
+
+            <div class="image__construction process__image is-hidden">
+              <div class="image-wrapper" style="padding-bottom: calc(1979 / 3000 * 100%);">
+                <img
+                    class="lazyload"
+                    src="/img/transparent.png"
+                    data-sizes="auto"
+                    data-srcset="/img/construction-285x188.jpg 285w,
+                     /img/construction-570x376.jpg 570w,
+                     /img/construction-994x656.jpg 994w"
+                />
+                  <noscript>
+                      <img src="/img/construction-570x376.jpg" />
+                  </noscript>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+  </div>
+
+    <div class="contact-background" data-section="contact" id='contact-section'>
+      <div class="margin-wrapper">
+        <section class="main__contact clearfix">
+
+          <h2 class="contact__title">Let's get talking!</h2>
+
+          <div class="contact__form">
+              <div class="contact__response js-contact-response">
+                <?php if (isset($_GET['form-sent'])) : ?>
+                    <p>Your form has been submitted successfully!</p>
+                <?php endif; ?>
+              </div>
+                <form id="contact" action="form.php" method="post">
+                    <div class="contact__input">
+                        <span class="contact__tag">Name</span>
+                        <input class="box-styling" type="text" name="name" required>
+                    </div>
+                    <div class="contact__input">
+                        <span class="contact__tag">Email address</span>
+                        <input class="box-styling" type="email" name="email" required>
+                    </div>
+                    <div class="contact__input">
+                        <span class="contact__tag">Message</span>
+                        <textarea class="box-styling contact__message" name="message" form="contact" required></textarea>
+                        <input class="submit" type="submit" value="Send" form="contact" name="submit">
+                    </div>
+                </form>
+          </div>
+
+          <div class="is-hidden contact__info">
+              <h4 class="info__tag">Telephone</h4>
+              <div class="info__text">
+                02049454784
+              </div>
+
+              <h4 class="info__tag">Email</h4>
+              <div class="info__text"><a href="mailto:contact@intalicecannon.com?Subject=Enquiry" target="_top">
+                contact@alicecannon.co.uk</a>
+              </div>
+
+              <h4 class="info__tag">Address</h4>
+              <div class="info__text">
+                26 Crown Street<br>London<br>WC2B 8FE<br>(by appointment only)
+              </div>
+          </div>
+
+          <div class="is-hidden contact__img">
+            <div class="image-wrapper" style="padding-bottom: calc(1920 / 1502 * 100%);">
+              <img
+                  class="lazyload"
+                  src="/img/transparent.png"
+                  data-sizes="auto"
+                  data-srcset="/img/contact-136x193.jpg 136w,
+                 /img/contact-272x386.jpg 272w,
+                 /img/contact-460x653.jpg 460w"
+              />
+                <noscript>
+                    <img src="/img/contact-272x386.jpg" />
+                </noscript>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <footer class="site-footer">
+          <span>Made by <a href="https://www.helenzhou.co.uk/" target="_blank">Helen Zhou</a> 2017</span>
+      </footer>
+
+  </div>
   
 
   <script src="/main-min.js"></script>
