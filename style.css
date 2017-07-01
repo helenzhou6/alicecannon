@@ -473,7 +473,7 @@ em {
   position: absolute;
   top: 1.4em;
   left: 1em;
-  z-index: 1000;
+  z-index: 1;
   color: #adacac; }
 
 .box-styling {

@@ -1,8 +1,14 @@
 // @codekit-prepend "node_modules/waypoints/lib/noframework.waypoints.min.js";
 // @codekit-prepend "node_modules/lazysizes/lazysizes.min.js";
+// @codekit-prepend "node_modules/scrollreveal/dist/scrollreveal.min.js";
 
 
 document.addEventListener('DOMContentLoaded', function() {
+	// JavaScript
+	window.sr = ScrollReveal({ scale: 1, delay: 200, });
+	sr.reveal('.js-reveal');
+
+
 	var contactForm = document.querySelector('#contact');
 	var contactFormSubmitBtn = contactForm.querySelector('.submit');
 	var contactFormMessage = document.querySelector('.js-contact-response');

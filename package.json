@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "lazysizes": "^4.0.0-rc1"
+    "lazysizes": "^4.0.0-rc1",
+    "scrollreveal": "^3.3.5"
   },
   "devDependencies": {
     "waypoints": "^4.0.1"

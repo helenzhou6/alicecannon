@@ -38,7 +38,7 @@
         <section class="main__about" data-section="about">
 
           <div class="clearfix">
-            <div class="image__first image">
+            <div class="image__first image js-reveal">
               <div class="image-wrapper" style="padding-bottom: calc(1688 / 3000 * 100%);">
                 <img
                     class="lazyload"
@@ -55,13 +55,13 @@
                   </noscript>
               </div>
             </div>
-            <div class="text__first text">
+            <div class="text__first text js-reveal">
               <p>We can make your place <em>truly yours</em>. We are an established, <em>award winning</em> interior design and architecture company based in London.</p>
             </div>
           </div>
 
           <div class="clearfix">
-            <div class="image__second image">
+            <div class="image__second image js-reveal">
               <div class="image-wrapper" style="padding-bottom: calc(1688 / 3000 * 100%);">
                 <img
                     class="lazyload"
@@ -78,13 +78,13 @@
                   </noscript>
               </div>
             </div>
-            <div class="text__second text">
+            <div class="text__second text js-reveal">
               <p>We provide a <em>complete service</em> no matter how big or small the project. So you can move into your <em>dream home</em> without any of the hassle of creating it. And we even make sure it’s all cost effective too.</p>
             </div>
           </div>
 
           <div class="clearfix">
-            <div class="image__third image">
+            <div class="image__third image js-reveal">
               <div class="image-wrapper" style="padding-bottom: calc(2002 / 3000 * 100%);">
                 <img
                     class="lazyload"
@@ -102,11 +102,11 @@
               </div>
             </div>
 
-            <div class="text__third text">
+            <div class="text__third text js-reveal">
               <p>We believe in <em>sustainable design</em>. We only procure the highest of quality products from our wide network of <em>tried-and-tested</em> suppliers. And we hand pick the British Designer Makers that make bespoke pieces <em>suited to your tastes</em>.</p>
             </div>
 
-            <div class="image__fourth image">
+            <div class="image__fourth image js-reveal">
               <div class="image-wrapper" style="padding-bottom: calc(3000 / 1638 * 100%);">
                 <img
                     class="lazyload"
@@ -127,12 +127,12 @@
 
           <div class="clearfix">
 
-            <div class="text__fourth text">
+            <div class="text__fourth text js-reveal">
               <p>We take the time to really get to know you. Your tastes <em>matter to us</em>. We develop custom design solutions that tailor specially to your needs. Our passion is making your <em>perfect space</em> a reality. </p>
             </div>
 
             <div class="clearfix image__56">
-              <div class="image__fifth image">
+              <div class="image__fifth image js-reveal">
                 <div class="image-wrapper" style="padding-bottom: calc(1339 / 2000 * 100%);">
                   <img
                       class="lazyload"
@@ -149,7 +149,7 @@
                 </div>
               </div>
 
-              <div class="image__sixth image">
+              <div class="image__sixth image js-reveal">
                 <div class="image-wrapper" style="padding-bottom: calc(3000 / 2000 * 100%);">
                   <img
                       class="lazyload"
@@ -173,12 +173,12 @@
 
         <section class="main__process clearfix" data-section="process" id='process-section'>
           <div class="clearfix">
-            <div class="process process__discovery">
+            <div class="process process__discovery js-reveal">
               <h3 class="process__title">Discovery Phase</h3>
               <p>Have a coffee with us. The first consultation is free and without any obligation. We’ll talk about your principal requirements and the scope of your project. We’ll learn what is important to you and your lifestyle, and get to know your tastes and style. We believe in transparency, so we’ll discuss an outline budget and a rough time scale from the onset. We’ll bring our expertise to the table and together we can explore the potential.</p>
             </div>
 
-            <div class="image__discovery process__image">
+            <div class="image__discovery process__image js-reveal">
               <div class="image-wrapper" style="padding-bottom: calc(2000 / 3000 * 100%);">
                 <img
                     class="lazyload"
@@ -196,14 +196,14 @@
 
           </div>
           <div class="clearfix">
-            <div class="process process__concept">
-              <h3 class="process__title">Concept Design</h3
+            <div class="process process__concept js-reveal">
+              <h3 class="process__title">Concept Design</h3>
               <p>Next we will develop detailed professional proposals and invite you to our studio to discuss the design direction. We’ll have various sketch and concept visualisations and mood boards for you to choose and alter. We aim to work as a team with you to realise your vision.</p>
               <p>We bring in the professionals. We work closely with the architects, trade contractors, restorers, lighting designers, bespoke furniture makers and consultants to evaluate the proposals.</p>
               <p>From lighting design to product sourcing and spatial planning, we’ll discuss all the specifications in detail. Once you have approved all aspects of the project, we will draw up a finalised written agreement and detailed cost plan.</p>
             </div>
 
-            <div class="image__concept process__image">
+            <div class="image__concept process__image js-reveal">
               <div class="image-wrapper" style="padding-bottom: calc(2250 / 3000 * 100%);">
                 <img
                     class="lazyload"
@@ -221,14 +221,14 @@
           </div>
 
           <div class="clearfix">
-            <div class="process process__construction">
+            <div class="process process__construction js-reveal">
               <h3 class="process__title">Construction</h3>
               <p>We take care of the smaller details.  We will deal with the technical and legal issues associated with property management including planning approval and building regulations.</p>
               <p>We know how important It is to get it right. That’s why we oversee the whole project from construction to the final furnishings. Our experienced project management team conduct regular site visits to ensure everything is running seamlessly so you don’t need to worry. We’ll resolve any issues that arise in a timely manner and always keep you informed.</p>
               <p>At completion we make sure that we have suppressed your expectations and you are happy with your new home. We make a visit six weeks after completion to ensure you’re still happy.</p>
             </div>
 
-            <div class="image__construction process__image is-hidden">
+            <div class="image__construction process__image is-hidden js-reveal">
               <div class="image-wrapper" style="padding-bottom: calc(1979 / 3000 * 100%);">
                 <img
                     class="lazyload"
@@ -253,9 +253,9 @@
       <div class="margin-wrapper">
         <section class="main__contact clearfix">
 
-          <h2 class="contact__title">Let's get talking!</h2>
+          <h2 class="contact__title js-reveal">Let's get talking!</h2>
 
-          <div class="contact__form">
+          <div class="contact__form js-reveal">
               <div class="contact__response js-contact-response">
                 <?php if (isset($_GET['form-sent'])) : ?>
                     <p>Your form has been submitted successfully!</p>
@@ -278,7 +278,7 @@
                 </form>
           </div>
 
-          <div class="is-hidden contact__info">
+          <div class="is-hidden contact__info js-reveal">
               <h4 class="info__tag">Telephone</h4>
               <div class="info__text">
                 02049454784
@@ -295,7 +295,7 @@
               </div>
           </div>
 
-          <div class="is-hidden contact__img">
+          <div class="is-hidden contact__img js-reveal">
             <div class="image-wrapper" style="padding-bottom: calc(1920 / 1502 * 100%);">
               <img
                   class="lazyload"
@@ -313,7 +313,7 @@
         </section>
       </div>
 
-      <footer class="site-footer">
+      <footer class="site-footer js-reveal">
           <span>Made by <a href="https://www.helenzhou.co.uk/" target="_blank">Helen Zhou</a> 2017</span>
       </footer>
 
