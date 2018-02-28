@@ -8,40 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
 	window.sr = ScrollReveal({ scale: 1, delay: 200, });
 	sr.reveal('.js-reveal');
 
-
-	var contactForm = document.querySelector('#contact');
-	var contactFormSubmitBtn = contactForm.querySelector('.submit');
-	var contactFormMessage = document.querySelector('.js-contact-response');
-
-	contactForm.addEventListener('submit', function(e) {
-		e.preventDefault();
-
-		// Disable the form...
-    contactFormSubmitBtn.setAttribute('disabled', true);
-
-    const fData = new FormData(contactForm);
-    fData.append('ajax', true);
-
-    // TODO: add some kind of loading indicator?
-    contactFormMessage.innerHTML = 'Loading...';
-
-    fetch('/form.php', {
-      method: 'POST',
-      headers: { 'Accept': 'application/json, application/xml, text/plain, text/html, *.*' },
-			body: fData
-		}).then(function(resp) {
-      // resp.json() is the response from the server (JSON)
-      return resp.json();
-    }).then(function(respData) {
-			// Add the returned message to the page
-			contactFormMessage.classList.add('contact__response--' + (respData.success ? 'success' : 'error'));
-			contactFormMessage.innerHTML = respData.message;
-
-      // Re-enable the form...
-      contactFormSubmitBtn.removeAttribute('disabled');
-		});
-	});
-
 	var navItems = (function() {
 		var linkElements = document.querySelectorAll('.nav__link');
 		var linkLookup = {};
